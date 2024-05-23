@@ -99,7 +99,7 @@ export const projects = [
       "/mongodb-icon.svg",
       "/jwt-icon.svg",
     ],
-    link: "https://drive.google.com/file/d/1TUKOfjBwtXLwEK3liUAZPHAFZq_cJ6UZ/view?usp=sharing",
+    link: "https://drive.google.com/file/d/1BjHFslueEeXJYgzMyiwao26YZ1IGtqs_/view?usp=sharing",
   },
   {
     id: 3,
@@ -114,7 +114,7 @@ export const projects = [
       "/mongodb-icon.svg",
       "/jwt-icon.svg",
     ],
-    link: "https://drive.google.com/file/d/1Yv-yqi8wf4ifmK0Uk4dapUc_dj9eI6XM/view?usp=sharing",
+    link: "https://drive.google.com/file/d/1u-iL9eTexKn2WOf83Ddf103xfFuy6B0n/view?usp=sharing",
   },
   {
     id: 4,
