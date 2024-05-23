@@ -1,7 +1,7 @@
 export const navItems = [
   { name: "About", link: "#about" },
   { name: "Projects", link: "#projects" },
-  { name: "Testimonials", link: "#testimonials" },
+  // { name: "Testimonials", link: "#testimonials" },
   { name: "Contact", link: "#contact" },
 ];
 
@@ -72,35 +72,65 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "3D Solar System Planets to Explore",
-    des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
-    img: "/p1.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-    link: "/ui.earth.com",
+    title: "Ecosphere Environmental Platform",
+    des: "Ecosphere is an innovative environmental awareness and action platform designed to empower users to actively participate in eco-friendly initiatives and track their sustainable actions. The application serves as a hub for individuals committed to environmental charge, offering a variety of features that promote sustainable practices and community-driven projects. Users can engage in initiatives such as recycling drives, tree planting events, and conservation efforts, and can track their contributions to these causes over time. Ecosphere also facilitates participating in challenges based on which they will get the reward. All the information is shown on the dashboard like participated challenges, initiatives, rewards won, etc. With that you can also organize an initiative or challenge for other community people. The platform’s user-friendly interface and comprehensive tracking capabilities make it an essential tool for anyone looking to make a positive environmental impact.",
+    img: "/ecosphere.png",
+    iconLists: [
+      "/re.svg",
+      "/tail.svg",
+      "/nodejs-icon.svg",
+      "/expressjs-icon.svg",
+      "/mongodb-icon.svg",
+      "/material.svg",
+      "/jwt-icon.svg",
+    ],
+    link: "https://drive.google.com/file/d/17UtYX3rdKvMQwzG3jYutlkYtTc-LK9Uz/view?usp=sharing",
   },
   {
     id: 2,
-    title: "Yoom - Video Conferencing App",
-    des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
-    img: "/p2.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-    link: "/ui.yoom.com",
+    title: "Relasto Property Manager",
+    des: "Relasto is a sophisticated property buying and selling website designed to streamline the real estate process for both buyers and sellers. The platform offers a seamless experience where buyers can customize their search preferences, view detailed property information, and directly contact sellers. For sellers, Relasto provides a dedicated dashboard that enables sellers to easily add new property listings. The site’s robust search functionality, combined with comprehensive property details and high-quality imagery, ensures that users can make informed decisions with confidence. Filters functionality is implemented to filter between different properties for appropriate property selection. Relasto’s emphasis on user security is highlighted by its implementation of JWT authentication, ensuring a safe and trustworthy environment for all transactions.",
+    img: "/relasto.png",
+    iconLists: [
+      "/re.svg",
+      "/tail.svg",
+      "/expressjs-icon.svg",
+      "/nodejs-icon.svg",
+      "/mongodb-icon.svg",
+      "/jwt-icon.svg",
+    ],
+    link: "https://drive.google.com/file/d/1TUKOfjBwtXLwEK3liUAZPHAFZq_cJ6UZ/view?usp=sharing",
   },
   {
     id: 3,
-    title: "AI Image SaaS - Canva Application",
-    des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
-    img: "/p3.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-    link: "/ui.aiimg.com",
+    title: "Airbnb for Womens",
+    des: "Women’s Haven is a bespoke accommodation platform exclusively for women, offering a safe and welcoming environment for female travelers. The platform provides a curated selection of properties, each one is detailed with comprehensive descriptions and high-quality imagery to ensure transparency and comfort. Users can easily browse these properties, make bookings, and even list their own accommodations. The platform’s intuitive interface and robust backend support make it a reliable choice for women seeking secure and quality accommodation options.",
+    img: "/airbnb.png",
+    iconLists: [
+      "/re.svg",
+      "/tail.svg",
+      "/expressjs-icon.svg",
+      "/nodejs-icon.svg",
+      "/mongodb-icon.svg",
+      "/jwt-icon.svg",
+    ],
+    link: "https://drive.google.com/file/d/1Yv-yqi8wf4ifmK0Uk4dapUc_dj9eI6XM/view?usp=sharing",
   },
   {
     id: 4,
-    title: "Animated Apple Iphone 3D Website",
-    des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
-    img: "/p4.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "/ui.apple.com",
+    title: "Authentication using Next.js and Socket.io",
+    des: "This project focuses on creating a secure account dashboard that provides users with enhanced security features and real-time activity monitoring. This project emphasizes robust user authentication and authorization, ensuring that users can log in and log out securely. To further increase security, the system includes two-factor authentication (2FA), adding an extra layer of protection against unauthorized access. The dashboard allows users to view their login and logout activities, including detailed device information and timestamps. It leverages real-time updates through Socket.IO, enabling instant notifications of user activities such as logins and logouts.",
+    img: "/authproject.png",
+    iconLists: [
+      "/next.svg",
+      "/tail.svg",
+      "/expressjs-icon.svg",
+      "/nodejs-icon.svg",
+      "/mongodb-icon.svg",
+      "/jwt-icon.svg",
+      "/socketio-icon.svg",
+    ],
+    link: "https://drive.google.com/file/d/1gmXrKpDZiWWChQ5w9y9gu54GnQvSMi3K/view?usp=sharing",
   },
 ];
 
@@ -173,31 +203,10 @@ export const companies = [
 export const workExperience = [
   {
     id: 1,
-    title: "Frontend Engineer Intern",
-    desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+    title: "Web Developer Intern",
+    desc: "During my virtual internship at Bharat Intern, I refined my web development skills of HTML, CSS and Javascript. These projects enhanced my proficiency in front-end technologies and explored backend.",
     className: "md:col-span-2",
     thumbnail: "/exp1.svg",
-  },
-  {
-    id: 2,
-    title: "Mobile App Dev - JSM Tech",
-    desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
-    className: "md:col-span-2", // change to md:col-span-2
-    thumbnail: "/exp2.svg",
-  },
-  {
-    id: 3,
-    title: "Freelance App Dev Project",
-    desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
-    className: "md:col-span-2", // change to md:col-span-2
-    thumbnail: "/exp3.svg",
-  },
-  {
-    id: 4,
-    title: "Lead Frontend Developer",
-    desc: "Developed and maintained user-facing features using modern frontend technologies.",
-    className: "md:col-span-2",
-    thumbnail: "/exp4.svg",
   },
 ];
 
@@ -205,13 +214,11 @@ export const socialMedia = [
   {
     id: 1,
     img: "/git.svg",
+    link: "https://github.com/utkarshpatil-13",
   },
   {
     id: 2,
-    img: "/twit.svg",
-  },
-  {
-    id: 3,
     img: "/link.svg",
+    link: "https://www.linkedin.com/in/utkarsh-patil-3b6a07210/",
   },
 ];
